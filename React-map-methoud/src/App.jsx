@@ -35,7 +35,7 @@ function App() {
         <h1>Food Items</h1>
         <ul>
           {foodItem.map((items) => {
-            return <li key={items}>{items}</li>;
+            return <li key={items}>{items}</li> ;
           })}
         </ul>
         <h1>Card Items</h1>
